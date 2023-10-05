@@ -721,7 +721,7 @@
     .footer .container .row .inner-socials ul li{
         width: 30px;
         height: 30px;
-;
+
     }
     .footer .container .row .inner-socials ul li a i{
         font-size: 16px;
@@ -735,5 +735,12 @@
         font-weight: 500;
         font-size: 12px;
     }
+
+}@media(max-width: 575.98px){
+
+    .footer .container .row .inner-copyright{
+        font-size: 8px;
+    }
+
 }
 /* end footer */
