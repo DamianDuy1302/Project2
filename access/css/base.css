@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --purple-main: #8261ee;
+    --pink-main: #ff589e;
+    --bg1: #fff;
+    --bg2: #f2f2fe;
+    --font-family: 'Raleway', sans-serif;
+    --text_mini: #7c7c7c;
+    --text-big: #3b3a37;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+ul{
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style-type: none;
+}
+a{
+    display: inline-flex;
+    text-decoration: none !important;
+}
+
+h1::selection{
+    background-color: var(--pink-main);
+    color: #fff;
+}
+p::selection{
+    background-color: var(--pink-main);
+    color: #fff;
+}
+b::selection{
+    background-color: var(--pink-main);
+    color: #fff;
+}
+.pink-selected::selection{
+    background-color: var(--pink-main);
+    color: #fff;
+}
+
+.button{
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 20px;
+    transition: all 0.25s;
+    font-weight: 500;
+}
+.button:hover{
+    cursor: pointer;
+}
+.button1{
+    background-color: var(--pink-main);
+}
+.button2{
+    background-color: var(--purple-main);
+}
+.button2:hover{
+    background-color: var(--pink-main);
+}
+.button1:hover{
+    scale: 1.1;
+}
+
+
+.container .row .inner-mainn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.container .row .inner-mainn .inner-titlee{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+    font-size: 32px;
+}
+.container .row .inner-mainn .inner-descc{
+    font-size: 16px;
+    font-weight: 400;
+    width: 60%;
+    text-align: center;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+
+.del{
+    text-decoration: line-through;
+}
