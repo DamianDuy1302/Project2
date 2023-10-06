@@ -10,6 +10,10 @@
     --text-big: #3b3a37;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding: 0;

@@ -150,7 +150,7 @@
     padding-bottom: 100px;
     border-bottom: 1px solid #eaeaea;
     position: relative;
-
+    scroll-margin-top: 100px;
 }
 .section-2 .container .row .inner-img{
     
@@ -198,6 +198,7 @@
 .section-3{
     /* margin-top: -60px; */
     padding: 100px 0;
+
     /* border-bottom: 1px solid #000000; */
 }
 .section-3 .container .row .inner-img{
@@ -252,6 +253,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 0;
+    scroll-margin-top: 100px;
 }
 
 .section-4 .container .row .inner-mainn .inner-titlee, .inner-descc{
@@ -356,6 +358,7 @@
 /* section-5 */
 .section-5
 {
+    scroll-margin-top: 100px;
     padding: 100px 0;
     background-color: var(--bg1);
 }
@@ -433,6 +436,7 @@
 
 /* section-6 */
 .section-6{
+    scroll-margin-top: 100px;
     padding: 80px 0;
     background-color: var(--bg2);
 }
@@ -565,6 +569,7 @@
 
 /* section-8 */
 .section-8{
+    scroll-margin-top: 100px;
     padding: 80px 0;
 }
 .section-8 .inner-descc{
@@ -612,6 +617,7 @@
 
 /* section-9 */
 .section-9{
+    scroll-margin-top: 100px;
     padding: 80px 0;
     background-color: var(--bg2);
 }
